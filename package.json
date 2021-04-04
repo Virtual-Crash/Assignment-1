@@ -2,8 +2,12 @@
   "name": "assignment-1",
   "version": "1.0.0",
   "description": "Assignment 1 for csc3221",
+  "engines": {
+        "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +15,8 @@
     "url": "git+https://github.com/Virtual-Crash/Assignment-1.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "heroku"
   ],
   "author": "Kayla Jeter",
   "license": "MIT",
